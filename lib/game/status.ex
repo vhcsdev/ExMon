@@ -6,4 +6,8 @@ alias ExMon.Game
     IO.inspect(Game.info)
     IO.puts("---------------------------------")
   end
+
+  def print_wrong(move) do 
+   IO.puts("\n===== Movimento Inválido =====\n") 
+  end
 end
