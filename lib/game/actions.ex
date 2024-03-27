@@ -1,5 +1,6 @@
 defmodule Exmon.Game.Actions do
-  alias Exmon.Game
+  alias ExMon.Game
+  alias ExMon.Game.Actions.Attack
   
   def attack(move) do 
     case Game.turn do 
